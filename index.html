@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css"/>
-  <title>Rock On 2.0</title>
-</head>
-<body>
-  <div class="container">
-    <div class="content">
-      <h1>ROCK, PAPER SCISSOR</h1>
-      <input type="text" placeholder="Make your play" style="width: 125px;"/>
-      <button id="btn">Play round</button>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Rock On 2.0</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>ROCK, PAPER, SCISSOR</h1>
+        <main class="options">
+          <div class="rock-group">
+            <strong>Rock</strong>
+            <button id="rock-button">Play round</button>
+          </div>
+          <div class="paper-group">
+            <strong>Paper</strong>
+            <button id="paper-button">Play round</button>
+          </div>
+          <div class="scissor-group">
+            <strong>Scissor</strong>
+            <button id="scissor-button">Play round</button>
+          </div>
+        </main>
+        <div class="line"></div>
+        <div class="show"></div>
+      </div>
     </div>
-  </div>
 
-  <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
