@@ -12,19 +12,15 @@ function playRound(p, c) {
     return DRAW;
   }
   else if (player === "ROCK" && computer === "SCISSOR") {
-    player_victories++;
     return PLAYER_WIN;
   }
   else if (player === "PAPER" && computer === "ROCK") {
-    player_victories++;
     return PLAYER_WIN;
   }
   else if (player === "SCISSOR" && computer === "PAPER") {
-    player_victories++;
     return PLAYER_WIN;
   }
   else {
-    pc_victories++;
     return COMPUTER_WIN;
   }
 }
@@ -54,9 +50,6 @@ function renderResults (c, winner) {
 const PLAYER_WIN = "PLAYER";
 const COMPUTER_WIN = "PC";
 const DRAW = "It's a draw !!";
-var player_victories = 0;
-var pc_victories = 0;
-var aux = 0;
 
 const Rock_btn = document.querySelector('#rock-button');
 const Paper_btn = document.querySelector('#paper-button');
