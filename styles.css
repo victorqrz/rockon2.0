@@ -54,8 +54,11 @@ main strong {
   width: 95%;
   margin: 3rem auto;
 }
-
+/*rgb(236, 228, 149)*/
 button {
+  border: 1px solid rgba(80,73,73,0.3);
+  background: rgb(240, 234, 184);
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
