@@ -10,6 +10,8 @@ Html Css Javascript
   
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<p align="center" >
+  <img src="./imgs/Screenshot_20210626_184023 1.png"/>
+</p>
 
   
